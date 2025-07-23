@@ -15,7 +15,7 @@
     <p><strong>🚀 Quick Start:</strong> Pre-trained models are available in the <code>checkpoints/</code> directory with multiple parameter configurations for immediate inference.</p>
 </div>
 <div class="note">
-    <p><strong>🚀 Quick Start:</strong> <code>pyqt_UI.py</code> - Interactive graphical user interface for easy operation</p>
+    <p><strong>🚀 Quick Start:</strong> <code>pyqt_UI.py</code> Interactive graphical user interface for easy operation</p>
 </div>
 <div class="warning">
     <p><strong>⚠️ Full Training Note:</strong> If you want to train from scratch, you'll need to manually download the Clotho dataset and use <code>train.py</code>. Otherwise, you can directly use our pre-trained models.</p>
