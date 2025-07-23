@@ -1,49 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Audio Captioning Project</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
-        }
-        code {
-            background-color: #f8f9fa;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-        }
-        pre {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 6px;
-            overflow-x: auto;
-            line-height: 1.4;
-        }
-        .note {
-            background-color: #e7f5ff;
-            border-left: 4px solid #4dabf7;
-            padding: 12px;
-            margin: 15px 0;
-            border-radius: 3px;
-        }
-        .warning {
-            background-color: #fff3bf;
-            border-left: 4px solid #ffd43b;
-            padding: 12px;
-            margin: 15px 0;
-            border-radius: 3px;
-        }
-    </style>
+
 </head>
 <body>
 
