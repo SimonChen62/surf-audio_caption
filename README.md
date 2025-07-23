@@ -19,7 +19,7 @@
 </div>
 
 <h2>⚙️ Installation</h2>
-<p>To set up the environment (minimum requirements for running the interactive interface):</p>
+<p>To set up the environment (minimum requirements for running the interactive interface) You can directly download the model parameter file (.pth), and use it directly with inference1 and the UI interface.:</p>
 
 <pre><code># 1. Install PyTorch (Ensure CUDA is available for GPU support)
 pip install torch torchvision torchaudio
