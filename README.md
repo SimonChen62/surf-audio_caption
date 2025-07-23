@@ -78,13 +78,6 @@ pip install transformers</code></pre>
   --lr 0.0001 \
   --save_dir models/</code></pre>
 
-<h2>🧠 Model Architecture</h2>
-<ul>
-    <li><strong>Audio Encoder</strong>: PANNs CNN (Pre-trained on AudioSet)</li>
-    <li><strong>Text Decoder</strong>: Transformer-based sequence generator</li>
-    <li><strong>Feature Fusion</strong>: Attention-based multimodal fusion</li>
-</ul>
-
 <h2>📂 Repository Structure</h2>
 <pre><code>├── checkpoints/         # Pre-trained models (multiple configurations)
 ├── model/               # Model architecture definitions
