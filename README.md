@@ -93,10 +93,8 @@ pip install transformers</code></pre>
 <ul>
     <li>Alternative encoder implementations (replacements for CNN14)</li>
     <li>Alternative decoder implementations (replacements for LLaMA)</li>
-    <li>Comparison scripts for evaluating different architecture performances</li>
 </ul>
 
 
 </body>
 </html>
-```
