@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html>
 
@@ -13,10 +14,13 @@
 <div class="note">
     <p><strong>🚀 Quick Start:</strong> Pre-trained models are available in the <code>checkpoints/</code> directory with multiple parameter configurations for immediate inference.</p>
 </div>
-
+<div class="note">
+    <p><strong>🚀 Quick Start:</strong> <code>pyqt_UI.py</code> - Interactive graphical user interface for easy operation</p>
+</div>
 <div class="warning">
     <p><strong>⚠️ Full Training Note:</strong> If you want to train from scratch, you'll need to manually download the Clotho dataset and use <code>train.py</code>. Otherwise, you can directly use our pre-trained models.</p>
 </div>
+
 
 <h2>⚙️ Installation</h2>
 <p>To set up the environment (minimum requirements for running the interactive interface) You can directly download the model parameter file (.pth), and use it directly with inference1 and the UI interface:</p>
@@ -61,6 +65,10 @@ pip install transformers</code></pre>
 
 <h3>Option 1: Using Pre-trained Models (Recommended)</h3>
 <p>Use our trained models from the <code>checkpoints/</code> directory:</p>
+<ul>
+    <li><code>inference1.py</code> - Program to call pre-trained models for audio analysis and generate results</li>
+    <li><code>pyqt_UI.py</code> - Interactive interface for user-friendly operation (integrates with inference1)</li>
+</ul>
 
 
 <h3>Option 2: Training from Scratch</h3>
@@ -77,9 +85,18 @@ pip install transformers</code></pre>
   --epochs 50 \
   --lr 0.0001 \
   --save_dir models/</code></pre>
+<p><code>train.py</code> - Implements training process using CNN14 as encoder and LLaMA as decoder</p>
 
 
+<h3>Option 3: Alternative Model Architectures</h3>
+<p>The <code>other_way/</code> directory contains experimental implementations with different encoder-decoder combinations:</p>
+<ul>
+    <li>Alternative encoder implementations (replacements for CNN14)</li>
+    <li>Alternative decoder implementations (replacements for LLaMA)</li>
+    <li>Comparison scripts for evaluating different architecture performances</li>
+</ul>
 
 
 </body>
 </html>
+```
