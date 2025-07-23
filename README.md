@@ -78,12 +78,7 @@ pip install transformers</code></pre>
   --lr 0.0001 \
   --save_dir models/</code></pre>
 
-<h2>📂 Repository Structure</h2>
-<pre><code>├── checkpoints/         # Pre-trained models (multiple configurations)
-├── model/               # Model architecture definitions
-├── inference.py         # Generate captions from audio
-├── train.py             # Training script (use with Clotho dataset)
-└── requirements.txt     # Python dependencies</code></pre>
+
 
 
 </body>
