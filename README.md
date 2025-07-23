@@ -5,7 +5,7 @@
 This repository contains an implementation of an audio captioning system that generates natural language descriptions for audio clips. The model combines audio feature extraction with sequence-to-sequence learning to produce captions. Pre-trained models are available for immediate inference, or you can train new models using the Clotho dataset.
 
 ## ⚙️ Installation
-To set up the environment, run the following commands:
+To set up the environment, run the following commands (This is the minimum requirement for directly running the interactive interface):
 
 ```bash
 # 1. Install PyTorch (Ensure CUDA is available for GPU support)
