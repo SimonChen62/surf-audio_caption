@@ -61,16 +61,7 @@ pip install transformers</code></pre>
 
 <h3>Option 1: Using Pre-trained Models (Recommended)</h3>
 <p>Use our trained models from the <code>checkpoints/</code> directory:</p>
-<pre><code>python inference.py \
-  --model_path checkpoints/model_bert_base.pth \
-  --audio_file sample.wav \
-  --beam_size 3</code></pre>
-<p>Available pre-trained configurations:</p>
-<ul>
-    <li><code>model_bert_base.pth</code> - Base model with BERT tokenizer</li>
-    <li><code>model_large_attn.pth</code> - Larger model with attention mechanism</li>
-    <li><code>model_beam5.pth</code> - Optimized for beam search (size=5)</li>
-</ul>
+
 
 <h3>Option 2: Training from Scratch</h3>
 <p>1. Download and prepare the <a href="https://zenodo.org/record/3490684" target="_blank">Clotho dataset</a></p>
